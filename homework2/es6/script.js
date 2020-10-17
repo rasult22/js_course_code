@@ -21,7 +21,7 @@ window.addEventListener('load', function () {
     cleverDiv.innerHTML = "<strong><em>HI</em></strong>";
     cleverDiv.style.color ='red';
     cleverDiv.querySelector('em').style.color = 'green';
-
+    cleverDiv.classList.add('some')
 })
 
 
